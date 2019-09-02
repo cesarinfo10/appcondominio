@@ -4,24 +4,70 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      List
+                            <!-- Dark Logo icon -->
+      <img src="assets/logo-icon.png" alt="homepage" class="dark-logo" />
+      <img src="assets/logo-text.png" alt="homepage" class="dark-logo" />
+                         <!-- Light Logo text -->    
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-item *ngFor="let item of items">
-      <ion-icon [name]="item.icon" slot="start"></ion-icon>
-      {{item.title}}
-      <div class="item-note" slot="end">
-        {{item.note}}
+<ion-grid>
+  <ion-row class='colorCol'>
+    <ion-col class="cablinea">
+      <div>
+       CLIENTE
       </div>
-    </ion-item>
-  </ion-list>
-  <!--
-    <div *ngIf="selectedItem" padding>
-      You navigated here from <b>{{selectedItem.title }}</b>
-    </div>
-  -->
+    </ion-col>
+    <ion-col class="cablinea">
+      <div>
+        DETALLE
+      </div>
+    </ion-col>
+    <ion-col class="cablinea">
+      <div>
+        TORRE
+      </div>
+    </ion-col>
+    <ion-col class="cablinea">
+      <div>
+        OK
+      </div>
+    </ion-col>
+     <ion-col class="cablinea">
+      <div>
+        IMG
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row *ngFor="let detalle of detalles">
+    <ion-col class="linea">
+      <div>
+       {{detalle.Clientes}}
+      </div>
+    </ion-col>
+    <ion-col class="linea">
+      <div>
+        {{detalle.descripcion}}
+      </div>
+    </ion-col>
+    <ion-col class="linea">
+      <div>
+        {{detalle.TORRES}}
+      </div>
+    </ion-col>
+        <ion-col class="linea">
+      <div>
+        {{detalle.solucions}}
+      </div>
+    </ion-col>
+      <ion-col class="linea">
+      <div>
+       <img src="{{detalle.rutaFoto}}" width=63 height=63 *ngIf="detalle.rutaFoto">
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+ 
 </ion-content>

@@ -16,9 +16,44 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
+      title: 'Lista Rondas',
+      url: '/ronda-list',
+      icon: 'list'
+    },
+    {
+      title: 'Iniciar Rondas',
+      url: '/iniciarronda',
+      icon: 'play'
+    },
+    {
+      title: 'Scannear Punto',
+      url: '/scanpunto',
+      icon: 'barcode'
+    },
+    {
+    title: 'Detener Rondas',
+    url: '/detenerronda',
+    icon: 'square'
+    },
+    {
+      title: 'Lista Reportes',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'Usuario',
+      url: '/usuario',
+      icon: 'person'
+    },
+    {
+      title: 'Detalle Reporte',
+      url: '/detalle-reporte',
+      icon: 'paper'
+    },
+    {
+      title: 'Detalle Solución',
+      url: '/detalle-solucion',
+      icon: 'build'
     }
   ];
 
