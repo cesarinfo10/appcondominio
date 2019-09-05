@@ -63,7 +63,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({"common":"common","detalle-reporte-detalle-reporte-module":"detalle-reporte-detalle-reporte-module","detalle-solucion-detalle-solucion-module":"detalle-solucion-detalle-solucion-module","detenerronda-detenerronda-module":"detenerronda-detenerronda-module","home-home-module":"home-home-module","iniciarronda-iniciarronda-module":"iniciarronda-iniciarronda-module","list-list-module":"list-list-module","ronda-list-ronda-list-module":"ronda-list-ronda-list-module","scanpunto-scanpunto-module":"scanpunto-scanpunto-module","sesion-sesion-module":"sesion-sesion-module","usuario-usuario-module":"usuario-usuario-module"}[chunkId]||chunkId) + ".js"
+/******/ 		return __webpack_require__.p + "" + ({"common":"common","detalle-reporte-detalle-reporte-module":"detalle-reporte-detalle-reporte-module","detalle-solucion-detalle-solucion-module":"detalle-solucion-detalle-solucion-module","detenerronda-detenerronda-module":"detenerronda-detenerronda-module","fotos-reporte-fotos-reporte-module":"fotos-reporte-fotos-reporte-module","home-home-module":"home-home-module","iniciarronda-iniciarronda-module":"iniciarronda-iniciarronda-module","list-list-module":"list-list-module","ronda-list-ronda-list-module":"ronda-list-ronda-list-module","scanpunto-scanpunto-module":"scanpunto-scanpunto-module","sesion-sesion-module":"sesion-sesion-module","tabs-tabs-module":"tabs-tabs-module","usuario-usuario-module":"usuario-usuario-module"}[chunkId]||chunkId) + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function

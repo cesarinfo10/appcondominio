@@ -833,6 +833,14 @@ module.exports = webpackAsyncContext;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
+	"../detalle-reporte/detalle-reporte.module": [
+		"./src/app/detalle-reporte/detalle-reporte.module.ts",
+		"detalle-reporte-detalle-reporte-module"
+	],
+	"../fotos-reporte/fotos-reporte.module": [
+		"./src/app/fotos-reporte/fotos-reporte.module.ts",
+		"fotos-reporte-fotos-reporte-module"
+	],
 	"./detalle-reporte/detalle-reporte.module": [
 		"./src/app/detalle-reporte/detalle-reporte.module.ts",
 		"detalle-reporte-detalle-reporte-module"
@@ -844,6 +852,10 @@ var map = {
 	"./detenerronda/detenerronda.module": [
 		"./src/app/detenerronda/detenerronda.module.ts",
 		"detenerronda-detenerronda-module"
+	],
+	"./fotos-reporte/fotos-reporte.module": [
+		"./src/app/fotos-reporte/fotos-reporte.module.ts",
+		"fotos-reporte-fotos-reporte-module"
 	],
 	"./home/home.module": [
 		"./src/app/home/home.module.ts",
@@ -868,6 +880,10 @@ var map = {
 	"./sesion/sesion.module": [
 		"./src/app/sesion/sesion.module.ts",
 		"sesion-sesion-module"
+	],
+	"./tabs/tabs.module": [
+		"./src/app/tabs/tabs.module.ts",
+		"tabs-tabs-module"
 	],
 	"./usuario/usuario.module": [
 		"./src/app/usuario/usuario.module.ts",
@@ -934,6 +950,8 @@ var routes = [
     { path: 'iniciarronda', loadChildren: './iniciarronda/iniciarronda.module#IniciarrondaPageModule' },
     { path: 'detenerronda', loadChildren: './detenerronda/detenerronda.module#DetenerrondaPageModule' },
     { path: 'scanpunto', loadChildren: './scanpunto/scanpunto.module#ScanpuntoPageModule' },
+    { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' },
+    { path: 'fotos-reporte', loadChildren: './fotos-reporte/fotos-reporte.module#FotosReportePageModule' },
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -1027,7 +1045,7 @@ var AppComponent = /** @class */ (function () {
             },
             {
                 title: 'Detalle Reporte',
-                url: '/detalle-reporte',
+                url: '/tabs/reporte',
                 icon: 'paper'
             },
             {
@@ -1139,8 +1157,8 @@ var AppModule = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "URL_SERVIS", function() { return URL_SERVIS; });
-//    export const URL_SERVIS = 'http://192.168.1.109';
-var URL_SERVIS = 'http://www.app-control.cl/';
+var URL_SERVIS = 'http://192.168.1.109';
+// export const URL_SERVIS = 'http://www.app-control.cl/';
 // export const URL_SERVIS = 'https://www.infositechile.cl/appcondominio';
 
 
