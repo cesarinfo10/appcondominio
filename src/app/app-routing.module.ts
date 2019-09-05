@@ -23,6 +23,8 @@ const routes: Routes = [
   { path: 'iniciarronda', loadChildren: './iniciarronda/iniciarronda.module#IniciarrondaPageModule' },
   { path: 'detenerronda', loadChildren: './detenerronda/detenerronda.module#DetenerrondaPageModule' },
   { path: 'scanpunto', loadChildren: './scanpunto/scanpunto.module#ScanpuntoPageModule' },
+  { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' },
+  { path: 'fotos-reporte', loadChildren: './fotos-reporte/fotos-reporte.module#FotosReportePageModule' },
 ];
 
 @NgModule({

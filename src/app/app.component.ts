@@ -47,7 +47,7 @@ export class AppComponent {
     },
     {
       title: 'Detalle Reporte',
-      url: '/detalle-reporte',
+      url: '/tabs/reporte',
       icon: 'paper'
     },
     {
